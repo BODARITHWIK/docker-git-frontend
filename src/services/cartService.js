@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081/api/cart";
+const API_URL = "http://ec2-98-81-165-214.compute-1.amazonaws.com:8081/api/cart";
 
 const API_BASE = "http://localhost:8081/api/cart";
 
