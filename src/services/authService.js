@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://ec2-98-81-165-214.compute-1.amazonaws.com:8081/auth";
+const API_URL = "http://ec2-34.224.102.91.compute-1.amazonaws.com:8081/auth";
 
 export const login = async (username, password) => {
   const response = await axios.post(`${API_URL}/login`, { username, password });
